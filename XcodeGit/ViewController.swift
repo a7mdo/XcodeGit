@@ -14,6 +14,11 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
         
         print("viewDidLoad()")
+        print(reverse(text: "viewDidLoad()"))
+    }
+    
+    func reverse(text: String) -> String {
+        return String(text.reversed())
     }
 
 
